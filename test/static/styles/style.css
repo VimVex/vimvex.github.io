@@ -1,5 +1,35 @@
-.test {
+.navi_pan_links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgb(33, 0, 246);
+    font-weight: bold;
+    margin: 0;
+    padding: 0 40px;
+    color: white;
+}
+.navi_main {
+    text-align: center;
+    background-color: rgb(166, 209, 227);
+}
+.navi_borders {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: inline-block;
+    margin: 0 20px;
+    font-family: cursive;
+}
+.h_border {
+    font-family: cursive;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.footer_main {
+    text-align: center;
+    background-color: rgb(6, 40, 54);
+    padding: 30px;
+    color: blue;
 }
