@@ -9,10 +9,12 @@
     color: white;
     list-style: none;
     line-height: 40px;
+    text-transform: uppercase;
 }
 .navi_main {
     text-align: center;
     background-color: rgb(166, 209, 227);
+    padding-top: 10px;
 }
 .navi_borders {
     margin: 0;
@@ -34,4 +36,11 @@
     background-color: rgb(6, 40, 54);
     padding: 30px;
     color: blue;
+}
+.delimeter {
+    background-color: blue;
+    line-height: 20px;
+    color: transparent;
+    margin: 0;
+    padding: 0;
 }
