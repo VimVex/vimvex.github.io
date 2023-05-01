@@ -15,15 +15,19 @@
     text-align: center;
     background-color: rgb(166, 209, 227);
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .navi_borders {
     margin: 0;
     padding: 0;
+    border: 1px black solid;
 }
 .container {
     display: inline-block;
     margin: 0 20px;
     font-family: cursive;
+    border: 2px solid;
+   
 }
 .h_border {
     font-family: cursive;
@@ -43,4 +47,5 @@
     color: blue;
     margin: 0;
     padding: 0;
+    border: 1px black solid;
 }
