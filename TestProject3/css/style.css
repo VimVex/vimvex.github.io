@@ -435,6 +435,10 @@ span {
 	margin: 0 0 1.5rem 2rem;
 }
 
+.skills-box {
+	padding-bottom: 7rem;
+}
+
 .skills-box .skills-content {
 	position: relative;
 	border: .2rem solid var(--main-color);
@@ -504,6 +508,12 @@ span {
 .skills-column:nth-child(1) .skills-content .progress-box:nth-child(4) .progress-bar span {
 	width: 1%;
 }
+.skills-column:nth-child(1) .skills-content .progress-box:nth-child(5) .progress-bar span {
+	width: 1%;
+}
+.skills-column:nth-child(1) .skills-content .progress-box:nth-child(6) .progress-bar span {
+	width: 1%;
+}
 
 .skills-column:nth-child(2) .skills-content .progress-box:nth-child(1) .progress-bar span {
 	width: 80%;
@@ -515,6 +525,12 @@ span {
 	width: 40%;
 }
 .skills-column:nth-child(2) .skills-content .progress-box:nth-child(4) .progress-bar span {
+	width: 30%;
+}
+.skills-column:nth-child(2) .skills-content .progress-box:nth-child(5) .progress-bar span {
+	width: 30%;
+}
+.skills-column:nth-child(2) .skills-content .progress-box:nth-child(6) .progress-bar span {
 	width: 30%;
 }
 
