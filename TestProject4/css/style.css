@@ -262,6 +262,10 @@ header {
 	margin: 25px 0 10px;
 }
 
+.login-register a{
+	margin-left: 6px; 
+}
+
 .login-register p a {
 	color: black;
 	text-decoration: none;
