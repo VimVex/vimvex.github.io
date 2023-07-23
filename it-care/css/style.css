@@ -43,8 +43,9 @@ a {
 
 .container {
 	max-width: 1220px;
-	margin-left: 140px;
-	padding: 0 10px;
+	/* margin-left: 140px; */
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
 body {
@@ -638,13 +639,25 @@ a.az::before {
 .card {
 	text-align: center;
 	box-shadow: 0 0 20px 0px rgba(255, 254, 254, 0.2);
-	transition: transform .5s;
+	/* transition: transform .5s; */
 	/*border: 1px solid #0066ff;*/
 }
 
 .card:hover{
-	transform: translateY(-20px);
-}
+	/* transform: translateY(-20px); */
+	background: #4d5761;
+	animation-delay: 0.5s;
+	animation-duration: 0.2s;
+	animation-timing-function:cubic-bezier(1, 0.1, 1, 0.1);
+	animation-name: scaleAnimation;
+	animation-fill-mode:forwards;
+	z-index: 5;
+ }
+ 
+ @keyframes scaleAnimation {
+   0% {transform:scale(1);}
+   100% {transform:scale(1.5);}
+ }
 
 .card__img {
 	display: block;
@@ -701,6 +714,18 @@ a.az::before {
 /*-----------1180----------*/
 
 @media (max-width: 1180px) {
+	/* .container {
+		margin: 0 50px;
+	} */
+	
+	.card {
+		transition: transform .5s;
+	}
+	
+	.card:hover{
+		animation: none;
+		transform: translateY(-20px);
+ 	}
 	.container {
 		margin: 0 auto;
 	}
