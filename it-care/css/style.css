@@ -654,7 +654,7 @@ a.az::before {
 /*-------------section hardware page-------------*/
 
 .choose {
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	padding: 100px 0;
 }
 
@@ -676,13 +676,15 @@ a.az::before {
 	/* left: -50px; */
 	/* justify-content: left; */
 	/* gap: 80px; */
+	margin-right: 40px;
 }
 
 .tabs__btn-item {
+	min-width: 130px;
 	font-size: 18px;
 	font-weight: 700;
-	min-width: 130px;
 	white-space: nowrap;
+	width: 100%;
 	text-align: left;
 	cursor: pointer;
 	border: none;
@@ -693,10 +695,18 @@ a.az::before {
 	border-radius: 5px;
 }
 
+
 .tabs__btn-item--active {
 	color: #151515;
 	background: #00eeff;
 }
+
+.tabs__btn-item:hover {
+	border: 1px solid #00eeff;
+}
+
+
+
 
 /*---------content---------------*/
 
@@ -715,6 +725,7 @@ a.az::before {
 	display: flex;
 	flex-direction: column;
 	transition: transform .5s;
+	box-shadow: 0 0 20px 0px rgba(255, 254, 254, 0.2);
 	/*border: 1px solid #0066ff;*/
 }
 
@@ -753,11 +764,9 @@ a.az::before {
 	border: 1px solid #00eeff;
 	border-top: 0;
 	min-height: 200px;
-	height: auto;
 	padding: 0 5px;
 	border-radius: 5px;
 	overflow: hidden;
-	box-shadow: 0 0 20px 0px rgba(255, 254, 254, 0.2);
 }
 
 .card__title {
@@ -778,24 +787,17 @@ a.az::before {
 }
 
 .read-more-text {
-	/* display: none; */
 	display: flex;
 	flex-direction: column;
 	opacity: 0;
 	height: 0;
 	text-align: left;
 	margin-bottom: 20px;
-	
 	transform: translateX(-200px);
 	transition: transform 1s;
-
-	/* line-height: 1.5; */
-	/* padding-bottom: 10px; */
 }
 
-/* .details:not(:last-child){ */
 .details {
-	/* display: inline-block; */
 	padding-bottom: 10px;
 }
 
